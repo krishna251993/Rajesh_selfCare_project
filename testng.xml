@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/IdeaProjects/ImclSelfcarePortalNewAutomation">
+        <classes>
+            <class name="com.imclnew.SelfcarePortal.Test.LoginTestCase"><methods><include name="login_to_selfcare_portal"/></methods></class>
+            <!--<class name="com.imclnew.SelfcarePortal.Test.RegisterCustomerTestCase"><methods><include name="Register_Customer_For_Selfcare_Portal"/></methods></class>
+            <class name="com.imclnew.SelfcarePortal.Test.RechargeMyAccountTestCase"><methods><include name="Rechargewallet"/></methods></class>
+            <class name="com.imclnew.SelfcarePortal.Test.PaymentReportTestCase"><methods><include name="PaymentReport"/></methods></class>
+            <class name="com.imclnew.SelfcarePortal.Test.BasePlanTestCase"><methods><include name="AddBasePack"/></methods></class>-->
+            <class name="com.imclnew.SelfcarePortal.Test.AddIndigitalPayBouquetTest"><methods><include name="Add_Indigital_Pay_Bouquet"/></methods></class>
+            <class name="com.imclnew.SelfcarePortal.Test.AddBroadcasterPayBouquetTest"><methods><include name="AddBroadcasterPayBouquet"/></methods></class>
+            <class name="com.imclnew.SelfcarePortal.Test.AddAlacarteTest"><methods><include name="addPlan"/></methods></class>
+            <class name="com.imclnew.SelfcarePortal.Test.ActivationReportTest"><methods><include name="activationreport"/></methods></class>
+            <class name="com.imclnew.SelfcarePortal.Test.ProfileTest"><methods><include name="updateProfile"/></methods></class>
+            <class name="com.imclnew.SelfcarePortal.Test.LogoutTest"><methods><include name="Logout_from_portal"/></methods></class>
+        </classes>
+    </test>
+</suite>
