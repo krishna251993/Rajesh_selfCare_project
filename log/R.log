@@ -6790,3 +6790,25 @@ Subscriber not found. Please Sign Up
 2019-06-12 12:28:10,352 - LoG file -INFO - Entering Password---Test@123
 2019-06-12 12:28:10,536 - LoG file -INFO - Clicking on Password
 2019-06-12 12:28:12,712 - LoG file -INFO - Verifying page
+2019-06-14 14:33:48,038 - Log file -INFO - Initializing Framework
+
+
+2019-06-14 14:38:13,286 - Log file -INFO - Initializing Framework
+
+
+2019-06-14 14:59:24,883 - Log file -INFO - Initializing Framework
+
+
+2019-06-14 14:59:37,285 - Log file -INFO - Closing Framework
+2019-06-14 15:04:23,814 - Log file -INFO - Initializing Framework
+
+
+2019-06-14 15:07:11,195 - Log file -INFO - Initializing Framework
+
+
+2019-06-14 15:08:41,878 - LoG file -INFO - verifying Login Page header
+2019-06-14 15:08:56,731 - LoG file -INFO - LOGIN is the header
+2019-06-14 15:10:09,916 - LoG file -INFO - AuthenticateUsingSelect has selected
+2019-06-14 15:10:28,444 - LoG file -INFO - Entering UserName---20110522
+2019-06-14 15:10:40,872 - LoG file -INFO - Entering Password---Test@123
+2019-06-14 15:10:54,329 - LoG file -INFO - Clicking on Password

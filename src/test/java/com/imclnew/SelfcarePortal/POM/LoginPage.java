@@ -70,6 +70,7 @@ public class LoginPage extends BasePage {
     }
     public void clickLoginButton() {
         logger.info("Clicking on Password");
+        waitTillTheElementVisible(proceed);
         proceed.click();
     }
     public void verifyPage() throws InterruptedException {

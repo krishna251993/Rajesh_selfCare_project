@@ -17,7 +17,7 @@ public class LoginTestCase extends BaseTest {
 
             Assert.assertEquals(loginpage.verifyPageTitle(), "LOGIN","Title not matched");
 
-                 loginpage.setAuthenticateUsingSelect();
+                  loginpage.setAuthenticateUsingSelect();
                  loginpage.setUsername();
                  loginpage.setPassword();
                  loginpage.clickLoginButton();

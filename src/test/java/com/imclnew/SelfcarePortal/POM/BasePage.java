@@ -8,10 +8,15 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.imclnew.SelfcarePortal.Utilities.Property;
+
 public class BasePage
 {
     public WebDriver driver;
     public Logger logger;
+    public long timeout;
+    public String configFile;
+    
 
     public BasePage(WebDriver driver)
     {
@@ -19,6 +24,8 @@ public class BasePage
         PageFactory.initElements(driver,this);
         logger=Logger.getLogger("LoG file");
         PropertyConfigurator.configure("log4j.properties");
+       // timeout=Long.parseLong(Property.getPropertyValue(configFile, "EXPLICIT"));
+    
     }
 
     public void waitTillTheElementVisible(WebElement element)
